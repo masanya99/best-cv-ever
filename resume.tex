@@ -1,0 +1,186 @@
+\documentclass[]{awesome-cv}
+\usepackage{tikz}
+\geometry{left=1.5cm, top=1cm, right=1.0cm, bottom=1cm, footskip=.3cm}
+\newcommand{\ExternalLink}{%
+    \tikz[x=1ex, y=1ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+                --++ (-0, 1.2) 
+                --++ (0.6, 0) 
+                --++ (0, -0.6) 
+                --++ (0.6, 0) 
+                --++ (0, -1);
+            \path[draw, 
+                line width = 0.5, 
+                rounded corners=0.5] 
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+            -- (1, 1) -- (1, 0.6);
+        }
+    }
+\usepackage{textcomp}
+\usepackage{hyperref}
+\fontdir[fonts/]
+\newcommand*{\sectiondir}{resume/}
+\colorlet{awesome}{awesome-red}
+
+ \begin{document}
+\begin{flushleft}
+
+	\headerlastnamestyle{Маслова } \headerfirstnamestyle{ Анна Олеговна} \\
+	\vspace{1mm}
+
+\end{flushleft}
+
+
+\vspace{1mm}
+\cvsection{Персональная информация}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.5}{\begin{tabular}{ l  l }
+		День рождения:  & {\qquad\skill{18.12.1999}} \\
+		Телефон:  & {\qquad\skill{7 (916) 743-70-67}} \\
+		Почта:      &{\qquad\skill{\href{mailto:maslovaa@yahoo.com}{maslovaa@yahoo.com}}    \ExternalLink} \\
+		Телеграм:  & {\qquad\skill{@anbananova}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-9mm}
+\cvsection{Образование}
+\begin{cventries}
+	\cventry
+	{Бакалавриат, ПМиИТ, Прикладная математика и информатика \newline GPA (средний балл) 4.8/5, 3-ий курс}
+	{Финансовый университет при Правительстве Российской Федерации}
+	{Москва, 2017 – 2021}
+	{}
+	{}
+	\end{cventries}  \vspace{-6mm} \begin{cventries}
+	\cventry
+	{Социально-экономический профиль \newline Окончила с золотой медалью "За особые успехи в обучении"}
+	{ГБОУ "Лицей № 1575"}
+	{Москва, 2014 – 2017}
+	{}
+	{}
+\end{cventries}
+\vspace{-5mm}
+
+
+\cvsection{Опыт работы}
+\begin{cventries}
+	\cventry
+	{Волонтер \newline \quad \bullet  Занималась ведением архива: организовывала хранение документов, составлялала личные дела абитуриентов}
+	{Приемная комиссия Финансового университета при Правительстве РФ}
+	{Москва, 2019}
+	{}
+	{}
+	\end{cventries}
+	
+\vspace{-5mm}	
+\cvsection{Навыки}
+\vspace{-2mm}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Английский: & {\qquad\skill{C1 / Advanced}} \\
+		Python:  & {\qquad\skill{Программирую и анализирую данные с помощью  pandas и numpy (библиотеки алгоритмов}} \\
+		   & {\qquad\skill{для анализа, моделирования и обработки данных, многомерных массивов)}} \\
+		R:  & {\qquad\skill{Программирую на среднем уровне}} \\
+		SQL: & {\qquad\skill{Знаю систему и язык запросов (Microsoft SQL Server)}} \\
+		%\skill{\LaTeX\ } & {\qquad\skill{На уровне, необходимом для создания такого резюме}} \\
+		%1С:Бухгалтерия, 1С:Предприятие:& {\qquad\skill{Знание основных функций систем}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-9mm}
+\cvsection{Проекты}
+\begin{cventries}
+	\cventry
+	{1) \textbf{"Анализ  недобросовестных практик на рынке ценных бумаг за 2013-2017 гг"}
+	\newline \qquad \bullet  Разработала алгоритм выявления и предотвращения негативных явлений и последствий, возникающих в результате недобросовестных практик на рынке ценных бумаг, запрограммировала и провела его проверку на основе статистических данных правоприменительной деятельности Центрального Банка России
+	\newline 
+	\textbf{С работой участвовала в следующих мероприятиях:}
+	\newline \quad IX Грушинская социологическая конференция  
+	\newline \quad Интерактивный стендовый конкурс-выставка "Турнир научных идей"  
+	\newline \quad Круглый стол «Цифровой ландшафт нашего экономического будущего» в рамках Х 
+	\newline \quad Международного научного студенческого конгресса
+	\newline \textbf{Победила в стендовом конкурсе бизнес-проектов} } 
+	{Научно-исследовательские работы:}
+	{Москва, 2019}
+	{}
+	{}
+		\end{cventries}  \vspace{-6mm} \begin{cventries}
+	\cventry
+	{2) \textbf{"Методы анализа случайных рисков с помощью центральных и 
+промежуточных порядковых статистик"}
+	\newline \qquad \bullet Проверила и на статистике стихийных бедствий в странах Западной Европы подтвердила гипотезу о том, что с помощью сравнительного анализа медианы и среднего значения выборки, можно сделать вывод о том, являются ли данные случайными рисками
+	}
+	{}%Написание курсовой научно-исследовательской работы}
+	{}
+	{}
+	{}
+	\vspace{-5mm}
+\end{cventries}
+
+
+\cvsection{Сертификаты}
+\begin{cventries}
+	\cventry
+	{}
+	{Прошла курс Bloomberg Market Concepts:
+	\newline \quad \bullet BMC's Core Concepts course
+	\newline \quad \bullet BMC Getting Started on the Terminal
+	\newline \quad \bullet BMC Portfolio Management
+	\newline \quad и получила соответствующий сертификат (Certificate ID: 157016797541)}
+	{}
+	{}
+	{}
+	\end{cventries} 
+	\vspace{-7mm}
+	
+\cvsection{Прочее}
+\begin{cventries}
+	\cventry
+	{\qquad \bullet На курсе я улучшила свою способность справляться с вызовами окружающей среды, развила навыки концентрации, стала более эмоционально уравновешенной}
+	{Прошла обучение по курсу осознанности Mindfulness }
+	{Лаборатория RealMindfulness}
+	{}
+	{}
+	\end{cventries}  \vspace{-7mm} \begin{cventries}
+	\cventry	
+	{\qquad \bullet Обучилась методу слепой печати}
+	{Прошла курс машинописи}
+	{}
+	{}
+	{}
+		\end{cventries}  \vspace{-7mm}\begin{cventries}
+	\cventry 
+	{}
+	{Именной стипендиат Правительства Москвы}
+	{}{}{}
+		\end{cventries}  \vspace{-11mm} \begin{cventries}
+	\cventry	
+	{}
+	{Золотой значок ГТО (V ступень)}
+	{}
+	{}
+	{}
+		\end{cventries}  \vspace{-11mm} \begin{cventries}
+	\cventry
+	{\qquad Неоднократный призер и победитель международных и общероссиских турниров}
+	{Кандидат в мастера спорта по спортивным бальным танцам}
+	{}
+	{}
+	{}
+	\end{cventries} \vspace{-10mm}
+\end{document}
