@@ -1,0 +1,172 @@
+\documentclass[]{awesome-cv}
+\usepackage{tikz}
+\geometry{left=1.5cm, top=0.7cm, right=1.0cm, bottom=0.4cm, footskip=.3cm}
+\newcommand{\ExternalLink}{%
+    \tikz[x=1ex, y=1ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+                --++ (-0, 1.2) 
+                --++ (0.6, 0) 
+                --++ (0, -0.6) 
+                --++ (0.6, 0) 
+                --++ (0, -1);
+            \path[draw, 
+                line width = 0.5, 
+                rounded corners=0.5] 
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+            -- (1, 1) -- (1, 0.6);
+        }
+    }
+\usepackage{textcomp}
+\usepackage{hyperref}
+\fontdir[fonts/]
+\newcommand*{\sectiondir}{resume/}
+\colorlet{awesome}{awesome-red}
+\usepackage{xcolor}
+
+
+ \begin{document}
+\begin{flushleft}
+
+	\headerlastnamestyle{Maslova } \headerfirstnamestyle{ Anna} \\
+	\vspace{1mm}
+
+\end{flushleft}
+
+\vspace{1mm}
+\cvsection{Personal information}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.5}{\begin{tabular}{ l  l }
+		Date of birth:  & {\qquad\skill{18.12.1999}} \\
+		Phone:  & {\qquad\skill{7 (916) 743-70-67}} \\
+		E-mail:      &{\qquad\skill{\href{mailto:maslovaa@yahoo.com}{maslovaa@yahoo.com}}    \ExternalLink} \\
+		Telegram:  & {\qquad\skill{\href{https://t-do.ru/anbananova}{@anbananova}}     \ExternalLink} \\
+		GitHub:  & {\qquad\skill{\href{https://github.com/masanya99}{@masanya99}}     \ExternalLink} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-9mm}
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor, Applied mathematics and IT \newline GPA 4.9/5, 3rd year student}
+	{Financial University under the Government of the Russian Federation}
+	{Moscow, Russia, 2017 – 2021}
+	{}
+	{}
+	\end{cventries} % \vspace{-6mm} 
+	%\begin{cventries}
+	%\cventry
+	%{Социально-экономический профиль \newline Окончила с золотой медалью "За особые успехи в обучении"}
+	%{ГБОУ "Лицей № 1575"}
+	%{Москва, 2014 – 2017}
+	%{}
+	%{}
+%\end{cventries}
+\vspace{-5mm}
+
+
+\cvsection{Work Experience}
+\begin{cventries}
+	\cventry
+	{Volunteer  \newline \quad \bullet  I was maintaining archiving: keeping records, preparing student files}
+	{Admissions committee of Financial University under the Government of the Russian Federation}
+	{Moscow, Russia, 2019}
+	{}
+	{}
+	\end{cventries} \vspace{-6mm}  \begin{cventries}
+	\cventry
+	{Intern  \newline \quad \bullet  I was developing 1C products for the company}
+	{Faberlic Ltd, IT department}
+	{Moscow, Russia, 2020}
+	{}
+	{}
+	\end{cventries}
+	
+\vspace{-5mm}	
+\cvsection{Skills}
+\vspace{-2mm}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		English level: & {\qquad\skill{C1 / Advanced}} \\
+		Python:  & {\qquad\skill{I programme and analyze data with pandas, numpy, scipy,  seaborn, sklearn (algorithm libraries for data}} \\
+		   & {\qquad\skill{analysis, modelling and processing, multivariate arrays, and libraries for machine learning and predicting)}} \\
+		R:  & {\qquad\skill{I know the basics and can analyze simple models}} \\
+		SQL: & {\qquad\skill{I know the system and query language (Microsoft SQL Server)}} \\
+		MS Excel: & {\qquad\skill{I can build and analyze financial models}} \\
+		%\skill{\LaTeX\ } & {\qquad\skill{На уровне, необходимом для создания такого резюме}} \\
+		%1С:Бухгалтерия, 1С:Предприятие:& {\qquad\skill{Знание основных функций систем}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-9mm}
+\cvsection{Research Experience}
+\begin{cventries}
+	\cventry
+	{1) \textbf{"Analysis of unscrupulous practices on the securities market for 2013-2017"}
+	\newline \qquad \bullet  I’ve developed an algorithm for detecting and preventing negative phenomena and consequences arising from unscrupulous practices in the securities market. I programmed and tested it on the basis of the statistics of the Central Bank of Russia
+	\newline 
+	\textbf{Attended the following events:}
+	\newline \quad IX Grushin Sociological Conference   
+	\newline \quad Interactive stand competition-exhibition "Tournament of Scientific Ideas"  
+	\newline \quad Round table «Digital landscape of our economic future» within of Х International Student
+	\newline \quad Science Congress
+	\newline \textbf{Won the competition Business Projects} } 
+	{Research and Development efforts:}
+	{Moscow, Russia, 2019}
+	{}
+	{}
+		\end{cventries}  \vspace{-6mm} \begin{cventries}
+	\cventry
+	{2) \textbf{"Methods of random risk analysis through the central and intermediate series statisticians"}
+	\newline \qquad \bullet I tested disaster statistics in Western Europe to confirm the hypothesis that a comparison of the median and the average of the sample can lead to the conclusion that the data are random risks
+	}
+	{}%Написание курсовой научно-исследовательской работы}
+	{}
+	{}
+	{}
+	\vspace{-5mm}
+\end{cventries}
+
+
+\cvsection{Certificates}
+\begin{cventries}
+	\cventry
+		{}
+	{Passed the course "Mathematics и Python for data analysis" and received the certificate }
+	{Coursera
+	\newline May 2020}
+	{}
+	{}
+	\end{cventries} \vspace{-6mm} \begin{cventries}
+	
+	\cventry
+		{}
+	{Passed the course Bloomberg Market Concepts:
+	\newline \quad \bullet BMC's Core Concepts course
+	\newline \quad \bullet BMC Getting Started on the Terminal
+	\newline \quad \bullet BMC Portfolio Management
+	\newline \quad and received the certificate (Certificate ID: 157016797541)}
+	{Bloomberg
+	\newline November 2019}
+	{}
+	{}
+	\end{cventries} 
+	\vspace{-7mm}
+	
+
+\end{document}
