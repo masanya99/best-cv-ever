@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.22)  3 AUG 2020 07:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.22)  7 SEP 2020 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,22 +1067,22 @@ Overfull \hbox (181.19975pt too wide) in paragraph at lines 113--113
 
 [1
 
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+] [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (./resume en.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `"resume en".out' has not changed.
 (rerunfilecheck)             Checksum: .
  ) 
 Here is how much of TeX's memory you used:
  37158 strings out of 492916
  710035 string characters out of 6133344
- 892208 words of memory out of 5000000
+ 893209 words of memory out of 5000000
  40764 multiletter control sequences out of 15000+600000
  533733 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,16n,109p,819b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume en.pdf (1 page).
+Output written on resume en.pdf (2 pages).
