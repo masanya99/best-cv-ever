@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.22)  4 NOV 2020 18:14
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.22)  20 NOV 2020 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -952,14 +952,14 @@ LaTeX Info: Redefining \selectfont on input line 32.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
-* v-part:(T,H,B)=(42.67912pt, 723.83812pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 752.29088pt, 14.22636pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=557.38951pt
-* \textheight=723.83812pt
+* \textheight=752.29088pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-66.59087pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1068,18 +1068,18 @@ Overfull \hbox (206.92908pt too wide) in paragraph at lines 115--115
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 305.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 305.
  (./resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 295.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 305.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 305.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
  37158 strings out of 492916
  709996 string characters out of 6133344
- 895198 words of memory out of 5000000
+ 896198 words of memory out of 5000000
  40764 multiletter control sequences out of 15000+600000
  533733 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
