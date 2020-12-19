@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.22)  7 SEP 2020 12:50
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.22)  19 DEC 2020 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"resume en.tex"
-(./resume en.tex
+**resume_en.tex
+(./resume_en.tex
 LaTeX2e <2018-12-01>
 (./awesome-cv.cls
 Document Class: awesome-cv 2015/12/14 v1.3 Awesome Curriculum Vitae Class
@@ -917,8 +917,8 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(./resume en.aux)
-\openout1 = `"resume en.aux"'.
+(./resume_en.aux)
+\openout1 = `resume_en.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -1037,9 +1037,9 @@ LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
 
-(./resume en.out) (./resume en.out)
+(./resume_en.out) (./resume_en.out)
 \@outlinefile=\write4
-\openout4 = `"resume en.out"'.
+\openout4 = `resume_en.out'.
 
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -1070,19 +1070,19 @@ Overfull \hbox (181.19975pt too wide) in paragraph at lines 113--113
 ] [2]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
- (./resume en.aux)
+ (./resume_en.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 225.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
-Package rerunfilecheck Info: File `"resume en".out' has not changed.
-(rerunfilecheck)             Checksum: .
+Package rerunfilecheck Info: File `resume_en.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
  37158 strings out of 492916
  710035 string characters out of 6133344
- 893209 words of memory out of 5000000
+ 893207 words of memory out of 5000000
  40764 multiletter control sequences out of 15000+600000
  533733 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 66i,16n,109p,819b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,16n,109p,817b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume en.pdf (2 pages).
+Output written on resume_en.pdf (2 pages).
